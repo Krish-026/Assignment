@@ -19,8 +19,10 @@ function App() {
                     className={`pentagon ${toggle ? 'gray' : 'black'}`}
                     onClick={handleClick}
                 >
-                    <h1>Pentagon</h1>
-                    <h3>Impact Analytics</h3>
+                    <div className='content'>
+                        <h1>Pentagon</h1>
+                        <h3>Impact Analytics</h3>
+                    </div>
                 </div>
             </section>
         </>

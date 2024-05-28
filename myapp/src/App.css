@@ -1,36 +1,43 @@
 .center{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.alignCenter {
-    text-align: center;
-}
-
-.pentagon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
-    text-align: center;
-    margin: 20px auto;
-    cursor: pointer;
-    width: 200px;
-    height: 200px;
-    clip-path: polygon(50% 100%, 100% 62%, 82% 0%, 18% 0%, 0% 62%);
-}
-
-.gray {
-    background: rgb(128, 128, 128);
-}
-
-.black {
-    background: rgb(0, 0, 0);
-    color: white;
-}
+  }
+  
+  .alignCenter {
+      text-align: center;
+  }
+  
+  .pentagon {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      text-align: center;
+      margin: 20px auto;
+      cursor: pointer;
+      width: 200px;
+      height: 150px;
+      clip-path: polygon(50% 100%, 100% 62%, 100% 0%, 0% 0%, 0% 62%);
+  }
+  
+  .gray {
+      background: rgb(128, 128, 128);
+  }
+  
+  .black {
+      background: rgb(0, 0, 0);
+      color: white;
+  }
+  
+  .content {
+      position: relative;
+      display: inline-block;
+      top: -30px;
+  }
+  
